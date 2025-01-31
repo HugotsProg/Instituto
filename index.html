@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sapiencia</title>
+    <link rel="stylesheet" href="css/styles_index.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/datatables.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <!-- Cabecera -->
+    <header>
+        <nav class="nav">
+
+            <div class="nav_container">
+    
+                <a href="#menu" style="font-size: 30px;" class="nav_menu">
+                    <i class="fas fa-bars nav_icon"></i>
+                </a>
+    
+                <a href="#" class="nav_menu nav_menu--second">
+                    <i style="font-size: 40px;" class="fa-solid fa-xmark nav_icon"></i>
+                </a>
+    
+                <ul class="dropdown" id="menu">
+    
+                    <li class="dropdown_list">
+
+                        <a href="Acercadenosotros.html" class="dropdown_link">
+                            <i class="fas fa-university dropdown_icon"></i>
+                            <span class="dropdown_span">NUESTRO COLEGIO</span>
+                            <i class="fa-solid fa-caret-right dropdown_arrow"></i>
+
+                            <input type="checkbox" class="dropdown_check">
+                        </a>
+    
+                        <div class="dropdown_content">
+    
+                            <ul class="dropdown_sub">
+    
+                                <li class="dropdown_li">
+                                    <a href="Acercadenosotros.html" class="dropdown_anchor">ACERCA DE NOSOTROS</a>
+                                </li>
+                                <li class="dropdown_li">
+                                    <a href="Acercadenosotros.html #hist" class="dropdown_anchor">NUESTRA HISTORIA</a>
+                                </li>
+                                <li class="dropdown_li">
+                                    <a href="instalaciones.html" class="dropdown_anchor">INSTALACIONES</a>
+                                </li>
+                                <li class="dropdown_li">
+                                    <a href="Actividades_extra.html" class="dropdown_anchor">ACTIVIDADES EXTRAESCOLARES</a>
+                                </li>
+    
+                            </ul>
+    
+                        </div>
+                    </li>
+    
+                    <li class="dropdown_list">
+                        <a href="#" class="dropdown_link">
+                            <i class="fas fa-newspaper dropdown_icon"></i>
+                            <span class="dropdown_span">OFERTA EDUCATIVA</span>
+                            <i class="fa-solid fa-caret-right dropdown_arrow"></i>
+    
+                            <input type="checkbox" class="dropdown_check">
+                        </a>
+    
+                        <div class="dropdown_content">
+    
+                            <ul class="dropdown_sub">
+                                <li class="dropdown_li">
+                                    <a href="proyecto_educativo.html" class="dropdown_anchor">PROYECTO EDUCATIVO</a>
+                                </li>
+                                <li class="dropdown_li">
+                                    <a href="infantil.html" class="dropdown_anchor">INFANTIL</a>
+                                </li>
+                                <li class="dropdown_li">
+                                    <a href="primaria.html" class="dropdown_anchor">PRIMARIA</a>
+                                </li>
+                                <li class="dropdown_li">
+                                    <a href="secundaria.html" class="dropdown_anchor">SECUNDARIA</a>
+                                </li>
+                                <li class="dropdown_li">
+                                    <a href="bachillerato.html" class="dropdown_anchor">BACHILLERATO</a>
+                                </li>
+    
+                            </ul>
+    
+                        </div>
+                    </li>
+    
+                    <li class="dropdown_list">
+                        <a href="#" class="dropdown_link">
+                            <i class="fas fa-archive dropdown_icon"></i>
+                            <span class="dropdown_span">ADMINISTRACIÓN</span>
+                            <i class="fa-solid fa-caret-right dropdown_arrow"></i>
+    
+                            <input type="checkbox" class="dropdown_check">
+                        </a>
+    
+                        <div class="dropdown_content">
+    
+                            <ul class="dropdown_sub">
+    
+                                <li class="dropdown_li">
+                                    <a href="Admision.html" class="dropdown_anchor">ADMISIÓN</a>
+                                </li>
+                                <li class="dropdown_li">
+                                    <a href="becas.html" class="dropdown_anchor">BECAS</a>
+                                </li>
+                                <li class="dropdown_li">
+                                    <a href="tarifas.html" class="dropdown_anchor">TARIFAS</a>
+                                </li>
+    
+                            </ul>
+    
+                        </div>
+                    </li>
+
+    
+                    <li class="dropdown_list">
+                        <a href="#" class="dropdown_link">
+                            <i class="fas fa-desktop dropdown_icon"></i>
+                            <span class="dropdown_span">AULA VIRTUAL</span>
+                            <i class="fa-solid fa-caret-right dropdown_arrow"></i>
+                            <input type="checkbox" class="dropdown_check">
+                        </a>
+
+                        <div class="dropdown_content">
+                            <ul class="dropdown_sub">
+                                <li class="dropdown_li">
+                                    <a href="https://moodle.com/es/iniciar-sesion/" class="dropdown_anchor">LOGIN AULA VIRTUAL</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </li>
+    
+                    <li class="dropdown_list">
+                        <a href="#" class="dropdown_link">
+                            <i class="fas fa-address-book dropdown_icon"></i>
+                            <span class="dropdown_span">CONTACTO</span>
+                            <i class="fa-solid fa-caret-right dropdown_arrow"></i>
+                            <input type="checkbox" class="dropdown_check">
+                        </a>
+    
+                        <div class="dropdown_content">
+                            
+                            <ul class="dropdown_sub">
+    
+                                <li class="dropdown_li">
+                                    <a href="Informacion.html" class="dropdown_anchor">INFORMACIÓN</a>
+                                </li>
+                                <li class="dropdown_li">
+                                    <a href="contacto.html" class="dropdown_anchor">FORMULARIO DE CONTACTO</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+    
+            </div>
+    
+        </nav>
+
+
+
+
+
+
+
+<!-- Logo de la cabecera -->
+        <div class="content_logo">
+            <a href="index.html">
+                <img src="images/logohorizontal.png" alt="Page Logo">
+            </a>
+        </div>
+
+
+
+
+
+        
+
+<!-- Buscador de la cabecera -->
+        <a style="margin-right: 50px ; font-size: 25px" id="show_search"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <input type="search" id="input_search" placeholder="Buscar">
+        <div class="content_search">
+            <div class="content_table">
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <td>.</td>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td><a href="proyecto_educativo.html">Proyecto Educativo</td>
+                        </tr>
+                        <tr>
+                            <td><a href="Acercadenosotros.html">Acerca de Nosotros</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://moodle.com/es/iniciar-sesion/">Aula Virtual</td>
+                        </tr>
+                        <tr>
+                            <td><a href="Informacion.html">Información</td>
+                        </tr>
+                        <tr>
+                            <td><a href="contacto.html">Formulario de Contacto</td>
+                        </tr>
+                        <tr>
+                            <td><a href="Acercadenosotros.html #hist">Nuestra Historia</td>
+                        </tr>
+                        <tr>
+                            <td><a href="instalaciones.html">Instalaciones</td>
+                        </tr>
+                        <tr>
+                            <td><a href="Actividades_extra.html">Actividades Extraescolares</td>
+                        </tr>
+                        <tr>
+                            <td><a href="Actividades_extra.html">Deportes</td>
+                        </tr>
+                        <tr>
+                            <td><a href="infantil.html">Infantil</td>
+                        </tr>
+                        <tr>
+                            <td><a href="primaria.html">Primaria</td>
+                        </tr>
+                        <tr>
+                            <td><a href="secundaria.html">Secundaria</td>
+                        </tr>
+                        <tr>
+                            <td><a href="bachillerato.html">Bachillerato</td>
+                        </tr>
+                        <tr>
+                            <td><a href="Admision.html">Admisión</td>
+                        </tr>
+                        <tr>
+                            <td><a href="becas.html">Becas</td>
+                        </tr>
+                        <tr>
+                            <td><a href="tarifas.html">Tarifas</td>
+                        </tr>
+                        <tr>
+                            <td><a href="tarifas.html">Precios</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </header>
+
+<script src="js/search.js"></script>
+
+
+
+
+
+
+
+<!-- Section1 -->
+    <div class="contenedor_section1_index">
+        <div class="texto_section1_index">
+            <p>El colegio de referencia en España</p>
+            <p id="titulo_section1">Colegio Sapiencia, Granada</p>
+            <p>Únase a nuestra jornada de puertas Abiertas</p>
+            <a href="contacto.html"><button class="boton_section1">Venga a visitarnos</button></a>
+        </div>
+    </div>
+
+    <!-- Section2 -->
+    
+    <div class = "contenedor_section2_index">
+        <div class="content2_index">
+            <div class="imagen_section2">
+                <img src="images/niñoordenador.png" alt="niño con ordenador">
+            </div>
+            <div class="texto_section2">
+                <h3 class="texto3">50 Años de Educación Excepcional en Granada</h3>
+                <hr>
+                <p>Sapiencia es el colegio  de referencia en Granada clasificado como uno de los mejores colegios de España (Revista Forbes). Dirigido por profesores cualificados, Sapiencia durante más de 50 años ha forjado una extraordinaria reputación avalada por los resultados excepcionales logrados por nuestros alumnos.</p>
+                <p>Colegio Sapiencia ofrece una trayectoria académica de gran prestigio que prepara a los alumnos desde educación infantil hacia el Bachillerato. Nuestros alumnos obtienen resultados excepcionales en ambas modalidades de Bachillerato, logrando calificaciones que rivalizan con las más prestigiosas instituciones de España. </p>
+                <p>Comprometidos con la excelencia académica, brindamos a nuestros alumnos el apoyo necesario para acceder a las universidades más renombradas del mundo, incluyendo Oxford, Cambridge, Harvard y muchas otras instituciones destacadas del Grupo Russell del Reino Unido y de la Ivy League estadounidense.</p>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Section3 -->
+
+    <div class="contenedor_section3_index">
+
+        <h3>¿Por qué elegir Colegio Sapiencia?</h3>
+        <hr>
+        <div class="contenedor_elementos_section3">
+            <div class="section3_texto">
+                <p>Debido a nuestra extensa trayectoria y excelencia académica, los alumnos de Colegio Sapiencia destacan constantemente con las mejores calificaciones a nivel nacional. Nuestro colegio es uno de los primeros del mundo en usar la inteligencia artificial para impulsar el aprendizaje personalizado, proporcionando a los alumnos herramientas adicionales que contribuyen a mejorar su rendimiento, incrementando las notas por un punto de media.</p>
+                <p>Nuestra educación basada en valores y el enfoque pedagógico innovador garantiza a los alumnos la admisión en las universidades más prestigiosas a nivel global, con frecuencia obteniendo becas basadas en el mérito. Nos comprometemos a guiar a los jóvenes hacia su pleno desarrollo como personas competentes, dotándolos de una perspectiva global y ayudándolos a alcanzar su máximo potencial en talento, habilidades y conocimientos, preparados para triunfar en un mundo en constante cambio.</p>
+                <p>Las familias nos eligen por ayudar a los alumnos en su excepcional formación integral. Les guiamos a conseguir sus más ambiciosos propositos, inculcándoles valores fundamentales y ayudándoles a adquirir habilidades perdurables que los capaciten para desempeñar roles de liderazgo y alcanzar un éxito notable en todas las facetas de sus vidas, más allá del aula.</p>
+            </div>
+            <div class="section3_img">
+                <img src="images/porque.png" alt="musico">
+            </div>
+        </div>
+    </div>
+
+    <!-- Section4 -->
+    <div class="contenedor_section4_index">
+        <div class="content4_index_second">
+            <h3>Colegio Sapiencia</h3>
+            <h3>Resultados académicos de nuestros alumnos en 2024</h3>
+        </div>
+        <hr>
+        <div class="content4_index_first">
+            <div class="item_section4_index">
+                <i class="fa-solid fa-people-group"></i>
+                <p id="numero_item">189</p>
+                <p id="texto_item">Alumnos presentados a la EVAU</p>
+            </div>
+            <div class="item_section4_index">
+                <i class="fa-solid fa-people-group"></i>
+                <p id="numero_item">100%</p>
+                <p id="texto_item">Aprueba EVAU en junio</p>
+            </div>
+            <div class="item_section4_index">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <p id="numero_item">8,2</p>
+                <p id="texto_item">Nota media EVAU sobre 10</p>
+            </div>
+            <div class="item_section4_index">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <p id="numero_item">1/3</p>
+                <p id="texto_item">Obtiene más de 12 en la fase específica</p>
+            </div>
+            <div class="item_section4_index">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <p id="numero_item">96%</p>
+                <p id="texto_item">Estudia su primera opción universitaria</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Section5 -->
+    <div class="contenedor_section5_index">
+        <h3>Etapas escolares</h3>
+        <hr>
+        <div class="content5_index">
+            <div class="item_section5">
+                <div class="texto_section5">
+                    <a href="infantil.html"><img src="images/infantil.png" alt="infantil"></a>
+                    <p>Infantil</p>
+                </div>
+                <div class="texto_boton_section5">
+                    <p>3 a 5 años</p>
+                    <a href="infantil.html"><button>Leer más</button></a>
+                </div>
+            </div>
+            <div class="item_section5">
+                <div class="texto_section5">
+                    <a href="primaria.html"><img src="images/primaria.png" alt="primaria"></a>
+                    <p>Primaria</p>
+                </div>
+                <div class="texto_boton_section5">
+                    <p>6 a 12 años</p>
+                    <a href="primaria.html"><button>Leer más</button></a>
+                </div>
+            </div>
+            <div class="item_section5">
+                <div class="texto_section5">
+                    <a href="secundaria.html"><img src="images/secundaria.png" alt="secundaria"></a>
+                    <p>Secundaria</p>
+                </div>
+                <div class="texto_boton_section5">
+                    <p>12 a 16 años</p>
+                    <a href="secundaria.html"><button>Leer más</button></a>
+                </div>
+            </div>
+            <div class="item_section5">
+                <div class="texto_section5">
+                    <a href="bachillerato.html"><img src="images/bachilleratovertical.png" alt="bachillerato"></a>
+                    <p>Bachillerato</p>
+                </div>
+                <div class="texto_boton_section5">
+                    <p>16 a 18 años</p>
+                    <a href="bachillerato.html"><button>Leer más</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<!-- Section6 -->
+<div class="contenedor_section6_index">
+    <div class="texto_section6">
+        <h3>Nuestros tres pilares</h3>
+        <hr>
+        <p>En los colegios del grupo Inspired, valoramos la singularidad de cada alumno y nos esforzamos por fomentar su confianza a través de un currículum amplio y atractivo. Nuestro enfoque educativo, basado en tres pilares principales, sitúa lo académico en el centro de todo, mientras que las artes escénicas y el deporte se consideran igualmente esenciales y valiosos. Este enfoque garantiza el desarrollo de jóvenes seguros, reflexivos y preparados para enfrentar los desafíos del mundo actual.</p>
+    </div>
+    <div class="imagenes_section6">
+        <div class="items_section6">
+            <img src="images/excelencia_academica.png" alt="excelencia académica">
+            <p>Excelencia académica</p>
+        </div>
+        <div class="items_section6">
+            <img src="images/deportes.png" alt="deportes">
+            <p>Deportes</p>
+        </div>
+        <div class="items_section6">
+            <img src="images/arte.png" alt="artes escenicas y creativas">
+            <p>Artes escénicas y creativas</p>
+        </div>
+    </div>
+</div>
+
+    <!-- Section5 -->
+    <div class="prefooter">
+        <div class="titulo_prefooter">
+            <h3>Inicie el viaje educativo de su hijo hacia la excelencia</h3>
+        </div>
+        <hr>
+        <div class="texto_prefooter">
+            <p>Descubra cómo una educación de referencia en Colegio Sapiencia, Granada, puede ampliar los horizontes de su hijo, llevarlo hacia resultados sobresalientes y prepararlo de manera efectiva para un éxito a todos los niveles tanto en España como en el resto del mundo.</p>
+        </div>
+        <div class="boton_prefooter">
+            <a href="contacto.html"><button>Contáctenos</button></a>
+        </div>
+    </div>
+
+
+    
+
+
+    <!-- footer -->
+    <footer>
+        <div class="contenedor_footer">
+            <div class="items_footer_logo">
+                <a href="index.html"><img src="images/logovertical.png" alt="logo"></a>
+            </div>
+            <div class="items_footer">
+                <div class="direcciones_footer">
+                    <p style="font-weight: bold; color:rgba(0, 49, 84, 1)">Colegio Sapiencia, Granada</p>
+                    <a href="https://www.google.es/maps/place/C.+Acequia,+19-13,+Genil,+18008+Granada/@37.1527787,-3.5835521,16z/data=!3m1!4b1!4m6!3m5!1s0xd71e4ab519d8481:0xa1465334798a3ad!8m2!3d37.1527787!4d-3.5809772!16s%2Fg%2F11c64gpzsf?hl=es&entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"><p>Calle Almenara, Genil. <br>Huetor Vega <br>Granada</p></a>
+                    <p>(+34)959123321</p>
+                    <p>info@sapiencia.es</p>
+                </div>   
+            </div>
+            <div class="items_footer">
+                <div class="util">
+                    <h4 style="font-weight: bold; color:rgba(0, 49, 84, 1)">Información Útil</h4>
+                    <a href="Acercadenosotros.html">Grupo Sapiencia</a>
+                    <a href="https://moodle.com/es/iniciar-sesion/">Aula Virtual</a>
+                </div>
+            </div>
+            <div class="items_footer">
+                <div class="redes">
+                    <a href="https://www.instagram.com/accounts/login/"><i style="padding-right: 10px;" class="fa-brands fa-instagram"></i>Instagram</a>
+                    <a href="https://www.facebook.com/?locale=es_ES"><i style="padding-right: 10px;" class="fa-brands fa-facebook"></i>Facebook</a>
+                    <a href="https://www.youtube.com/"><i style="padding-right: 10px;" class="fa-brands fa-youtube"></i>Youtube</a>
+                    <a href="https://x.com/?lang=es"><i style="padding-right: 10px;" class="fa-brands fa-twitter"></i>Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="temas_legales">
+            <p>&copy;ColegioSapiencia2024</p>
+            <a href="politicadecookies.html">Política de Cookies</a>
+            <a href="politicadeprivacidad.html">Política de Privacidad</a>
+        </div>
+    </footer>
+</body>
+</html>
+
+

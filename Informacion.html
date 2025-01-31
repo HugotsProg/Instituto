@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información</title>
+    <link rel="stylesheet" href="css/styles_index.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/datatables.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+        <!-- Cabecera -->
+        <header>
+            <nav class="nav">
+    
+                <div class="nav_container">
+        
+                    <a href="#menu" style="font-size: 30px;" class="nav_menu">
+                        <i class="fas fa-bars nav_icon"></i>
+                    </a>
+        
+                    <a href="#" class="nav_menu nav_menu--second">
+                        <i style="font-size: 40px;" class="fa-solid fa-xmark nav_icon"></i>
+                    </a>
+        
+                    <ul class="dropdown" id="menu">
+        
+                        <li class="dropdown_list">
+    
+                            <a href="Acercadenosotros.html" class="dropdown_link">
+                                <i class="fas fa-university dropdown_icon"></i>
+                                <span class="dropdown_span">NUESTRO COLEGIO</span>
+                                <i class="fa-solid fa-caret-right dropdown_arrow"></i>
+    
+                                <input type="checkbox" class="dropdown_check">
+                            </a>
+        
+                            <div class="dropdown_content">
+        
+                                <ul class="dropdown_sub">
+        
+                                    <li class="dropdown_li">
+                                        <a href="Acercadenosotros.html" class="dropdown_anchor">ACERCA DE NOSOTROS</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="Acercadenosotros.html #hist" class="dropdown_anchor">NUESTRA HISTORIA</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="instalaciones.html" class="dropdown_anchor">INSTALACIONES</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="Actividades_extra.html" class="dropdown_anchor">ACTIVIDADES EXTRAESCOLARES</a>
+                                    </li>
+        
+                                </ul>
+        
+                            </div>
+                        </li>
+        
+                        <li class="dropdown_list">
+                            <a href="#" class="dropdown_link">
+                                <i class="fas fa-newspaper dropdown_icon"></i>
+                                <span class="dropdown_span">OFERTA EDUCATIVA</span>
+                                <i class="fa-solid fa-caret-right dropdown_arrow"></i>
+        
+                                <input type="checkbox" class="dropdown_check">
+                            </a>
+        
+                            <div class="dropdown_content">
+        
+                                <ul class="dropdown_sub">
+                                    <li class="dropdown_li">
+                                        <a href="proyecto_educativo.html" class="dropdown_anchor">PROYECTO EDUCATIVO</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="infantil.html" class="dropdown_anchor">INFANTIL</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="primaria.html" class="dropdown_anchor">PRIMARIA</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="secundaria.html" class="dropdown_anchor">SECUNDARIA</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="bachillerato.html" class="dropdown_anchor">BACHILLERATO</a>
+                                    </li>
+        
+                                </ul>
+        
+                            </div>
+                        </li>
+        
+                        <li class="dropdown_list">
+                            <a href="#" class="dropdown_link">
+                                <i class="fas fa-archive dropdown_icon"></i>
+                                <span class="dropdown_span">ADMINISTRACIÓN</span>
+                                <i class="fa-solid fa-caret-right dropdown_arrow"></i>
+        
+                                <input type="checkbox" class="dropdown_check">
+                            </a>
+        
+                            <div class="dropdown_content">
+        
+                                <ul class="dropdown_sub">
+        
+                                    <li class="dropdown_li">
+                                        <a href="Admision.html" class="dropdown_anchor">ADMISIÓN</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="becas.html" class="dropdown_anchor">BECAS</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="tarifas.html" class="dropdown_anchor">TARIFAS</a>
+                                    </li>
+        
+                                </ul>
+        
+                            </div>
+                        </li>
+    
+        
+                        <li class="dropdown_list">
+                            <a href="#" class="dropdown_link">
+                                <i class="fas fa-desktop dropdown_icon"></i>
+                                <span class="dropdown_span">AULA VIRTUAL</span>
+                                <i class="fa-solid fa-caret-right dropdown_arrow"></i>
+                                <input type="checkbox" class="dropdown_check">
+                            </a>
+    
+                            <div class="dropdown_content">
+                                <ul class="dropdown_sub">
+                                    <li class="dropdown_li">
+                                        <a href="https://moodle.com/es/iniciar-sesion/" class="dropdown_anchor">LOGIN AULA VIRTUAL</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </li>
+        
+                        <li class="dropdown_list">
+                            <a href="#" class="dropdown_link">
+                                <i class="fas fa-address-book dropdown_icon"></i>
+                                <span class="dropdown_span">CONTACTO</span>
+                                <i class="fa-solid fa-caret-right dropdown_arrow"></i>
+                                <input type="checkbox" class="dropdown_check">
+                            </a>
+        
+                            <div class="dropdown_content">
+                                
+                                <ul class="dropdown_sub">
+        
+                                    <li class="dropdown_li">
+                                        <a href="Informacion.html" class="dropdown_anchor">INFORMACIÓN</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="contacto.html" class="dropdown_anchor">FORMULARIO DE CONTACTO</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+        
+                </div>
+        
+            </nav>
+    
+    
+    
+    
+    
+    
+    
+    <!-- Logo de la cabecera -->
+            <div class="content_logo">
+                <a href="index.html">
+                    <img src="images/logohorizontal.png" alt="Page Logo">
+                </a>
+            </div>
+    
+    
+    
+    
+    
+            
+    
+    <!-- Buscador de la cabecera -->
+            <a style="margin-right: 50px ; font-size: 25px" id="show_search"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <input type="search" id="input_search" placeholder="Buscar">
+            <div class="content_search">
+                <div class="content_table">
+                    <table id="table">
+                        <thead>
+                            <tr>
+                                <td>.</td>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <td><a href="proyecto_educativo.html">Proyecto Educativo</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Acercadenosotros.html">Acerca de Nosotros</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://moodle.com/es/iniciar-sesion/">Aula Virtual</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Informacion.html">Información</td>
+                            </tr>
+                            <tr>
+                                <td><a href="contacto.html">Formulario de Contacto</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Acercadenosotros.html">Nuestra Historia</td>
+                            </tr>
+                            <tr>
+                                <td><a href="instalaciones.html">Instalaciones</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Actividades_extra.html">Actividades Extraescolares</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Actividades_extra.html">Deportes</td>
+                            </tr>
+                            <tr>
+                                <td><a href="infantil.html">Infantil</td>
+                            </tr>
+                            <tr>
+                                <td><a href="primaria.html">Primaria</td>
+                            </tr>
+                            <tr>
+                                <td><a href="secundaria.html">Secundaria</td>
+                            </tr>
+                            <tr>
+                                <td><a href="bachillerato.html">Bachillerato</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Admision.html">Admisión</td>
+                            </tr>
+                            <tr>
+                                <td><a href="becas.html">Becas</td>
+                            </tr>
+                            <tr>
+                                <td><a href="tarifas.html">Tarifas</td>
+                            </tr>
+                            <tr>
+                                <td><a href="tarifas.html">Precios</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </header>
+    
+    <script src="js/search.js"></script>
+
+
+
+
+
+    <!-- Section1 Información -->
+    <div class="contenedor_section1_informacion">
+        <div class="contenedor_texto_informacion">
+            <h3>Información</h3>
+        </div>
+    </div>
+    
+
+
+    <!--  Section2 Información-->
+    <div class="contenedor_section2_informacion">
+        <h3>Ubicación y acceso</h3>
+        <hr>
+        <div class="contenedor_section2_imagenyfoto">
+            <div class="foto_ubicacion">
+            <a href="https://www.google.es/maps/place/C.+Almajara,+7,+Genil,+18008+Granada/@37.1547041,-3.5834164,16z/data=!3m1!4b1!4m6!3m5!1s0xd71e4ab29337b17:0xe84a9d82e9e1105b!8m2!3d37.1547041!4d-3.5808415!16s%2Fg%2F11c4vr17rf?hl=es&entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D"><img src="images/ubicacion.png" alt="ubicacion"></a>
+        </div>
+            <div class="texto_ubicacion">
+                <h4>Dirección </h4>
+                <p>Calle Almajara N°7, Huetor Vega, Granada.</p>
+                <h4>Cómo llegar</h4>
+                <p>Estamos ubicados cerca del Parque Central, con fácil acceso desde la Avenida Principal y a 5 minutos de la estación de transporte público más cercana.</p>
+                <h4>Estacionamiento</h4>
+                <p>El instituto cuenta con estacionamiento para visitas, disponible de lunes a viernes en horario administrativo.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Section3 Información -->
+    <div class="contenedor_section3_informacion">
+        <h3>Horarios</h3>
+        <hr>
+        <h4>Horario lectivo</h4>
+        <p>Las clases se imparten de lunes a viernes, de 8:00 a.m. a 3:00 p.m., con un receso a media mañana. Las actividades extracurriculares tienen lugar de 3:30 p.m. a 6:00 p.m.</p>
+        <h4>Horario administrativo</h4>
+        <p>La atención en la oficina administrativa está disponible de lunes a viernes, de 9:00 a.m. a 5:30 p.m. Los sábados, se atiende exclusivamente bajo cita previa, de 10:00 a.m. a 1:00 p.m.</p>
+    </div>
+
+
+
+
+    <!-- Section4 Información -->
+    <div class="contenedor_section4_informacion">
+        <h3>Equipo Administrativo</h3>
+        <hr>
+        <h4>Director Académico</h4>
+        <div class="personal_administrativo">
+            <img src="images/director.png" alt="director">
+            <p>Dr. Sergio Pérez, responsable de supervisar la calidad educativa y atender solicitudes académicas.</p>
+        </div>
+        <h4>Coordinador de Admisiones</h4>
+        <div class="personal_administrativo">
+            <img src="images/coordinador.png" alt="coordinador de admisiones">
+            <p>Lic. Roberto Gómez, encargado de guiar a las familias en el proceso de inscripción.</p>
+        </div>
+        <h4>Encargada de Finanzas</h4>
+        <div class="personal_administrativo">
+            <img src="images/encargada.png" alt="encargada finanzas">
+            <p>Sra. Laura Ramírez, punto de contacto para cualquier consulta sobre tarifas, becas o pagos.</p>
+        </div>
+    </div>
+
+
+
+
+    <!-- Section5 Información-->
+    <div class="contenedor_section5_informacion">
+        <h3>Normas de contacto</h3>
+        <hr>
+        <h4>Tiempo de respuesta</h4>
+        <p>Responderemos cualquier consulta enviada a través del formulario de contacto o correo electrónico dentro de las 24 a 48 horas hábiles.</p>
+        <h4>Solicitudes específicas</h4>
+        <p>Para certificados académicos, por favor solicita con al menos 5 días de anticipación.</p>
+        <p>Para entrevistas con el personal docente o directivo, contáctanos por teléfono para agendar una cita.</p>
+    </div>
+
+
+
+
+    <!-- Section6 -->
+    <div class="prefooter">
+        <div class="titulo_prefooter">
+            <h3>Dar el primer paso hacia un futuro lleno de posibilidades</h3>
+        </div>
+        <hr>
+        <div class="texto_prefooter">
+            <p>Descubra cómo podemos ayudar a su hijo a alcanzar su máximo potencial con métodos de enseñanza personalizados, acceso a instalaciones de última generación y planes de estudios internacionales que tienen como objetivo desarrollar todos sus talentos.</p>
+        </div>
+        <div class="boton_prefooter">
+            <a href="contacto.html"><button>Contáctenos</button></a>
+        </div>
+    </div>
+
+
+
+    <!-- footer -->
+    <footer>
+        <div class="contenedor_footer">
+            <div class="items_footer_logo">
+                <a href="index.html"><img src="images/logovertical.png" alt="logo"></a>
+            </div>
+            <div class="items_footer">
+                <div class="direcciones_footer">
+                    <p style="font-weight: bold; color:rgba(0, 49, 84, 1)">Colegio Sapiencia, Granada</p>
+                    <a href="https://www.google.es/maps/place/C.+Acequia,+19-13,+Genil,+18008+Granada/@37.1527787,-3.5835521,16z/data=!3m1!4b1!4m6!3m5!1s0xd71e4ab519d8481:0xa1465334798a3ad!8m2!3d37.1527787!4d-3.5809772!16s%2Fg%2F11c64gpzsf?hl=es&entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"><p>Calle Almenara, Genil. <br>Huetor Vega <br>Granada</p></a>
+                    <p>(+34)959123321</p>
+                    <p>info@sapiencia.es</p>
+                </div>   
+            </div>
+            <div class="items_footer">
+                <div class="util">
+                    <h4 style="font-weight: bold; color:rgba(0, 49, 84, 1)">Información Útil</h4>
+                    <a href="Acercadenosotros.html">Grupo Sapiencia</a>
+                    <a href="https://moodle.com/es/iniciar-sesion/">Aula Virtual</a>
+                </div>
+            </div>
+            <div class="items_footer">
+                <div class="redes">
+                    <a href="https://www.instagram.com/accounts/login/"><i style="padding-right: 10px;" class="fa-brands fa-instagram"></i>Instagram</a>
+                    <a href="https://www.facebook.com/?locale=es_ES"><i style="padding-right: 10px;" class="fa-brands fa-facebook"></i>Facebook</a>
+                    <a href="https://www.youtube.com/"><i style="padding-right: 10px;" class="fa-brands fa-youtube"></i>Youtube</a>
+                    <a href="https://x.com/?lang=es"><i style="padding-right: 10px;" class="fa-brands fa-twitter"></i>Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="temas_legales">
+            <p>&copy;ColegioSapiencia2024</p>
+            <a href="politicadecookies.html">Política de Cookies</a>
+            <a href="politicadeprivacidad.html">Política de Privacidad</a>
+        </div>
+    </footer>
+</body>
+</html>

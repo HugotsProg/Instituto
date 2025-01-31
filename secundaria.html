@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educación Secundaria</title>
+    <link rel="stylesheet" href="css/styles_index.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/datatables.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+        <!-- Cabecera -->
+        <header>
+            <nav class="nav">
+    
+                <div class="nav_container">
+        
+                    <a href="#menu" style="font-size: 30px;" class="nav_menu">
+                        <i class="fas fa-bars nav_icon"></i>
+                    </a>
+        
+                    <a href="#" class="nav_menu nav_menu--second">
+                        <i style="font-size: 40px;" class="fa-solid fa-xmark nav_icon"></i>
+                    </a>
+        
+                    <ul class="dropdown" id="menu">
+        
+                        <li class="dropdown_list">
+    
+                            <a href="Acercadenosotros.html" class="dropdown_link">
+                                <i class="fas fa-university dropdown_icon"></i>
+                                <span class="dropdown_span">NUESTRO COLEGIO</span>
+                                <i class="fa-solid fa-caret-right dropdown_arrow"></i>
+    
+                                <input type="checkbox" class="dropdown_check">
+                            </a>
+        
+                            <div class="dropdown_content">
+        
+                                <ul class="dropdown_sub">
+        
+                                    <li class="dropdown_li">
+                                        <a href="Acercadenosotros.html" class="dropdown_anchor">ACERCA DE NOSOTROS</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="Acercadenosotros.html #hist" class="dropdown_anchor">NUESTRA HISTORIA</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="instalaciones.html" class="dropdown_anchor">INSTALACIONES</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="Actividades_extra.html" class="dropdown_anchor">ACTIVIDADES EXTRAESCOLARES</a>
+                                    </li>
+        
+                                </ul>
+        
+                            </div>
+                        </li>
+        
+                        <li class="dropdown_list">
+                            <a href="#" class="dropdown_link">
+                                <i class="fas fa-newspaper dropdown_icon"></i>
+                                <span class="dropdown_span">OFERTA EDUCATIVA</span>
+                                <i class="fa-solid fa-caret-right dropdown_arrow"></i>
+        
+                                <input type="checkbox" class="dropdown_check">
+                            </a>
+        
+                            <div class="dropdown_content">
+        
+                                <ul class="dropdown_sub">
+                                    <li class="dropdown_li">
+                                        <a href="proyecto_educativo.html" class="dropdown_anchor">PROYECTO EDUCATIVO</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="infantil.html" class="dropdown_anchor">INFANTIL</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="primaria.html" class="dropdown_anchor">PRIMARIA</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="secundaria.html" class="dropdown_anchor">SECUNDARIA</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="bachillerato.html" class="dropdown_anchor">BACHILLERATO</a>
+                                    </li>
+        
+                                </ul>
+        
+                            </div>
+                        </li>
+        
+                        <li class="dropdown_list">
+                            <a href="#" class="dropdown_link">
+                                <i class="fas fa-archive dropdown_icon"></i>
+                                <span class="dropdown_span">ADMINISTRACIÓN</span>
+                                <i class="fa-solid fa-caret-right dropdown_arrow"></i>
+        
+                                <input type="checkbox" class="dropdown_check">
+                            </a>
+        
+                            <div class="dropdown_content">
+        
+                                <ul class="dropdown_sub">
+        
+                                    <li class="dropdown_li">
+                                        <a href="Admision.html" class="dropdown_anchor">ADMISIÓN</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="becas.html" class="dropdown_anchor">BECAS</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="tarifas.html" class="dropdown_anchor">TARIFAS</a>
+                                    </li>
+        
+                                </ul>
+        
+                            </div>
+                        </li>
+    
+        
+                        <li class="dropdown_list">
+                            <a href="#" class="dropdown_link">
+                                <i class="fas fa-desktop dropdown_icon"></i>
+                                <span class="dropdown_span">AULA VIRTUAL</span>
+                                <i class="fa-solid fa-caret-right dropdown_arrow"></i>
+                                <input type="checkbox" class="dropdown_check">
+                            </a>
+    
+                            <div class="dropdown_content">
+                                <ul class="dropdown_sub">
+                                    <li class="dropdown_li">
+                                        <a href="https://moodle.com/es/iniciar-sesion/" class="dropdown_anchor">LOGIN AULA VIRTUAL</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </li>
+        
+                        <li class="dropdown_list">
+                            <a href="#" class="dropdown_link">
+                                <i class="fas fa-address-book dropdown_icon"></i>
+                                <span class="dropdown_span">CONTACTO</span>
+                                <i class="fa-solid fa-caret-right dropdown_arrow"></i>
+                                <input type="checkbox" class="dropdown_check">
+                            </a>
+        
+                            <div class="dropdown_content">
+                                
+                                <ul class="dropdown_sub">
+        
+                                    <li class="dropdown_li">
+                                        <a href="Informacion.html" class="dropdown_anchor">INFORMACIÓN</a>
+                                    </li>
+                                    <li class="dropdown_li">
+                                        <a href="contacto.html" class="dropdown_anchor">FORMULARIO DE CONTACTO</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+        
+                </div>
+        
+            </nav>
+    
+    
+    
+    
+    
+    
+    
+    <!-- Logo de la cabecera -->
+            <div class="content_logo">
+                <a href="index.html">
+                    <img src="images/logohorizontal.png" alt="Page Logo">
+                </a>
+            </div>
+    
+    
+    
+    
+    
+            
+    
+    <!-- Buscador de la cabecera -->
+            <a style="margin-right: 50px ; font-size: 25px" id="show_search"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <input type="search" id="input_search" placeholder="Buscar">
+            <div class="content_search">
+                <div class="content_table">
+                    <table id="table">
+                        <thead>
+                            <tr>
+                                <td>.</td>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <td><a href="proyecto_educativo.html">Proyecto Educativo</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Acercadenosotros.html">Acerca de Nosotros</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://moodle.com/es/iniciar-sesion/">Aula Virtual</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Informacion.html">Información</td>
+                            </tr>
+                            <tr>
+                                <td><a href="contacto.html">Formulario de Contacto</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Acercadenosotros.html #hist">Nuestra Historia</td>
+                            </tr>
+                            <tr>
+                                <td><a href="instalaciones.html">Instalaciones</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Actividades_extra.html">Actividades Extraescolares</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Actividades_extra.html">Deportes</td>
+                            </tr>
+                            <tr>
+                                <td><a href="infantil.html">Infantil</td>
+                            </tr>
+                            <tr>
+                                <td><a href="primaria.html">Primaria</td>
+                            </tr>
+                            <tr>
+                                <td><a href="secundaria.html">Secundaria</td>
+                            </tr>
+                            <tr>
+                                <td><a href="bachillerato.html">Bachillerato</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Admision.html">Admisión</td>
+                            </tr>
+                            <tr>
+                                <td><a href="becas.html">Becas</td>
+                            </tr>
+                            <tr>
+                                <td><a href="tarifas.html">Tarifas</td>
+                            </tr>
+                            <tr>
+                                <td><a href="tarifas.html">Precios</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </header>
+    
+    <script src="js/search.js"></script>
+
+
+
+
+<!-- Section1 secundaria -->
+<div class="contenedor_section1_secundaria">
+    <div class="contenedor_texto_secundaria">
+        <h3>Educación Secundaria (de 12 a 16 años)</h3>
+    </div>
+</div>
+
+
+<!-- Section2 secundaria -->
+<div class="contenedor_section2_secundaria">
+    <h3>Educación Secundaria en Sapiencia</h3>
+    <hr>
+    <p>En el Colegio Sapiencia, la etapa de Educación Secundaria es un período crucial en el desarrollo académico y personal de los estudiantes. Durante estos años, nos enfocamos en consolidar los aprendizajes previos y fortalecer las competencias necesarias para afrontar los retos de la vida adulta y los estudios superiores. En este nivel, promovemos el pensamiento crítico, la autonomía y la toma de decisiones informadas, habilidades esenciales en un mundo en constante evolución. <br>
+    Nuestro modelo educativo se centra en un equilibrio entre el rigor académico y el aprendizaje práctico, permitiendo que los alumnos adquieran conocimientos sólidos en materias fundamentales mientras desarrollan habilidades transversales como la resolución de problemas, el trabajo en equipo y la comunicación efectiva. Además, fomentamos una cultura de curiosidad y creatividad que inspira a los estudiantes a explorar sus intereses y talentos individuales, ayudándoles a construir una base sólida para sus metas futuras.</p>
+</div>
+
+
+<!-- Section3 secundaria -->
+<div class="contenedor_section3_secundaria">
+    <h3>Enfoque educativo</h3>
+    <hr>
+    <div class="contenedor_section3_secundaria_imagentexto">
+        <img src="images/excelencia_academica.png" alt="niño y profesora">
+        <ul>Nuestro programa de Secundaria combina un aprendizaje profundo en materias académicas fundamentales con un enfoque práctico e interdisciplinario:
+            <li><strong>Rigor académico:</strong> Asignaturas como matemáticas, ciencias, lengua, literatura, historia, geografía e idiomas se imparten con un nivel de profundidad que prepara a los estudiantes para la etapa preuniversitaria.</li>
+            <li><strong>Habilidades prácticas:</strong> Incorporamos proyectos tecnológicos, talleres de investigación y experiencias aplicadas que estimulan la creatividad y la resolución de problemas.</li>
+            <li><strong>Educación en valores: </strong> Continuamos reforzando la empatía, el respeto, el trabajo en equipo y la responsabilidad personal como pilares de nuestra formación.</li>
+        </ul>
+    </div>
+</div>
+
+
+<!-- Section4 secundaria -->
+
+<div class="contenedor_section4_secundaria">
+    <h3>Proyectos y Actividades Destacadas</h3>
+    <hr>
+    <div class="contenedor_section4_secundaria_imagentexto">
+        <ul>Nuestro enfoque educativo en la etapa de Secundaria se centra en un plan de estudios equilibrado, basado en el prestigioso currículo nacional británico. Ofrecemos una amplia gama de asignaturas, que incluyen las tres asignaturas de ciencias (Biología, Química y Física), así como la oportunidad de estudiar tres idiomas relevantes en el mundo laboral (francés, español y alemán). <br>
+        Durante esta etapa, ofrecemos una amplia variedad de actividades que complementan la educación académica y fomentan el desarrollo integral de los estudiantes:
+            <li><strong>Proyectos interdisciplinarios:</strong>  Los alumnos aplican sus conocimientos en iniciativas como ferias científicas, debates académicos y presentaciones artísticas.</li>
+            <li><strong>Actividades extracurriculares avanzadas:</strong> Clases de robótica, programación y experimentos científicos.</li>
+            <li><strong>Excursiones y experiencias prácticas:  </strong> Salidas educativas a museos, centros de investigación y eventos culturales que amplían su perspectiva y comprensión del mundo.</li>
+        </ul>
+        <img src="images/secundaria3.png" alt="niño y profesora">
+    </div>
+</div>
+
+
+
+<!-- Section5 primaria -->
+<div class="contenedor_section5_secundaria">
+    <h3>Beneficios de elegir Sapiencia</h3>
+    <hr>
+        <div class="contenedor_section5_secundaria_imagentexto">
+            <p>Elegir el Colegio Sapiencia para la Secundaria significa brindar a los estudiantes una educación integral que combina excelencia académica, innovación y valores. Con grupos reducidos y un enfoque personalizado, garantizamos que cada alumno reciba la atención necesaria para desarrollar sus talentos y enfrentar con confianza los retos académicos y personales. <br>
+            Nuestro programa fomenta el pensamiento crítico, la creatividad y la autonomía, preparando a los estudiantes para una transición exitosa a etapas superiores, como el bachillerato o estudios técnicos. Además, inculcamos valores como la responsabilidad, el respeto y la empatía, esenciales para su desarrollo personal y social. Sapiencia no solo forma estudiantes preparados para el futuro, sino también ciudadanos comprometidos y conscientes, listos para liderar en cualquier ámbito.</p>
+            <img src="images/secundaria4.png" alt="niña">
+    </div>
+</div>
+
+
+
+<!-- Prefooter -->
+<div class="prefooter">
+    <div class="titulo_prefooter">
+        <h3>Dé el primer paso hacia el futuro prometedor de su hijo </h3>
+    </div>
+    <hr>
+    <div class="texto_prefooter">
+        <p>Descubra cómo nuestro Colegio de Secundaria puede ofrecer a su hijo oportunidades excepcionales de crecimiento y apoyo en su búsqueda de la excelencia.</p>
+    </div>
+    <div class="boton_prefooter">
+        <a href="contacto.html"><button>Contáctenos</button></a>
+    </div>
+</div>
+
+
+
+
+
+
+
+    <!-- footer -->
+    <footer>
+        <div class="contenedor_footer">
+            <div class="items_footer_logo">
+                <a href="index.html"><img src="images/logovertical.png" alt="logo"></a>
+            </div>
+            <div class="items_footer">
+                <div class="direcciones_footer">
+                    <p style="font-weight: bold; color:rgba(0, 49, 84, 1)">Colegio Sapiencia, Granada</p>
+                    <a href="https://www.google.es/maps/place/C.+Acequia,+19-13,+Genil,+18008+Granada/@37.1527787,-3.5835521,16z/data=!3m1!4b1!4m6!3m5!1s0xd71e4ab519d8481:0xa1465334798a3ad!8m2!3d37.1527787!4d-3.5809772!16s%2Fg%2F11c64gpzsf?hl=es&entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"><p>Calle Almenara, Genil. <br>Huetor Vega <br>Granada</p></a>
+                    <p>(+34)959123321</p>
+                    <p>info@sapiencia.es</p>
+                </div>   
+            </div>
+            <div class="items_footer">
+                <div class="util">
+                    <h4 style="font-weight: bold; color:rgba(0, 49, 84, 1)">Información Útil</h4>
+                    <a href="Acercadenosotros.html">Grupo Sapiencia</a>
+                    <a href="https://moodle.com/es/iniciar-sesion/">Aula Virtual</a>
+                </div>
+            </div>
+            <div class="items_footer">
+                <div class="redes">
+                    <a href="https://www.instagram.com/accounts/login/"><i style="padding-right: 10px;" class="fa-brands fa-instagram"></i>Instagram</a>
+                    <a href="https://www.facebook.com/?locale=es_ES"><i style="padding-right: 10px;" class="fa-brands fa-facebook"></i>Facebook</a>
+                    <a href="https://www.youtube.com/"><i style="padding-right: 10px;" class="fa-brands fa-youtube"></i>Youtube</a>
+                    <a href="https://x.com/?lang=es"><i style="padding-right: 10px;" class="fa-brands fa-twitter"></i>Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="temas_legales">
+            <p>&copy;ColegioSapiencia2024</p>
+            <a href="politicadecookies.html">Política de Cookies</a>
+            <a href="politicadeprivacidad.html">Política de Privacidad</a>
+        </div>
+    </footer>
+</body>
+</html>
